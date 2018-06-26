@@ -1,7 +1,6 @@
-### Template for wipro testweb application ###
-# This will create an EB for NODEJS application with rolling deployments
-# with minimum 2 t2.micro instances
-# in a Load Balancer listening in port 80 and instance port 80
+### This will create an EB for NODEJS application with rolling deployments
+## with minimum 2 t2.micro instances
+### in a Load Balancer listening in port 80 and instance port 80
 
 variable "app_name"                 { default = "demo" }
 variable "env"                      { default = "dev"}
